@@ -1,8 +1,9 @@
 *{
-  margin: 0;
-  padding: 10px;
+  margin-left: 1%;
+  padding: 0;
+
 }
-body p{
+p{
   background-color: rgb(43, 226, 141);
   padding: 10px;
   box-sizing: border-box;
@@ -15,6 +16,7 @@ body h1{
 color: tomato;
   text-align: center;
   font-weight: bolder;
+  
 }
 img{
   width: 500px;
@@ -30,20 +32,51 @@ img{
  /* display: block; */
   border: 6px solid rgb(184, 13, 179);
   margin-top: 20px;
+  width: 40%;
+  background: linear-gradient(45deg,
+    #14aac8,
+    rgba(9, 211, 226, 0.267));
+  
   
 }
 .login, input{
-   margin-top: 20px;
+   margin-top: 10px;
   font-size: 13px;
   font-weight: 100;
   font-style: italic; 
    /* box-sizing: border-box;  */
-  border: 5px solid;
+  border: 4px solid;
   border-radius: 5px;
 
   width: 40%;
     height: 5%;
    
-    
+    cursor: pointer;
     background: linear-gradient(45deg, #14aac8, rgba(9, 226, 41, 0.267));
+}
+button{
+margin-top: 10px;
+  font-size: 13px;
+  
+  font-style: italic;
+  /* box-sizing: border-box;  */
+  border: 3px solid;
+  border-radius: 5px;
+margin-top: 10px;
+  font-size: 13px;
+  font-weight: 100;
+  font-style: italic;
+  /* box-sizing: border-box;  */
+  border: 5px solid;
+  border-radius: 5px;
+
+  width: 20%;
+ 
+
+  cursor: pointer;
+  background: linear-gradient(45deg, #14aac8, rgba(9, 226, 41, 0.267));
+  
+
+  cursor: pointer;
+  background: linear-gradient(45deg, #14aac8, rgba(9, 226, 41, 0.267));
 }
